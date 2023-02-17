@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Full Stack developer, here you will find information about the projects I have done."
+    />
+    <meta
+      property="og:description"
+      content="Full Stack developer, here you will find information about the projects I have done. "
+    />
+    <meta property="og:title" content="Jose Estrada | Full Stack Developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Antonio Humpire / FrontEnd Developer"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Antonio Humpire / FrontEnd Developer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">AH</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">Sobre mí</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portafolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source srcset="./assets/perfil.jpg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <h1 class="home__title">Antonio Humpire </h1>
+        <span class="home__title--secondary">FrontEnd Developer</span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">Sobre mí</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>FrontEnd Developer </h2>
+            <p>
+              Me especializo en el desarrollo de interfaces, diseño web y páginas web.
+            </p>
+            <p>
+              Disfruto el desarrollo por la satisfacción que obtengo al superar los desafíos. Estoy motivado por la oportunidad que brinda el software para impactar positivamente la vida de un individuo y el mundo en su conjunto.
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/cv.pdf"
+              download="Antonio Humpire CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>Habilidades y Tecnologías</h2>
+            </div>
+            <div class="skill__item">
+              <img src="./assets/react.png" alt="React icon"/>
+              <div class="skill__name">React</div>
+            </div>
+            <div class="skill__item">
+              <img src="./assets/js.png" alt="JS icon"/>
+              <div class="skill__name">JavaScript</div>
+            </div>
+            <div class="skill__item">
+              <img src="./assets/html.png" alt="HTML icon"/>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <img src="./assets/css.png" alt="CSS icon"/>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <img src="./assets/git.png" alt="CSS icon"/>
+              <div class="skill__name">Git</div>
+            </div>
+            <div class="skill__item">
+              <img src="./assets/github.png" alt="CSS icon"/>
+              <div class="skill__name">Github</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portafolio</h2>
+        <h3 class="section__subtitle">Aquí se puede ver los proyectos en los que trabajé.</h3>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/halloween.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Halloween</h3>
+              <p class="portfolio__description--text">
+                Web Application: JavaScript, Html y CSS.
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://humpire2101.github.io/Halloween/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Humpire2101/Halloween"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Petgram.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Petgram</h3>
+              <p class="portfolio__description--text">
+                Web Application: REACT
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://petgram-jgestradam.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/petgram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Platzi-video.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Platzi Video</h3>
+              <p class="portfolio__description--text">
+                Web Application: REACT, JS, SCSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://platzi-video-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Platzi-video"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/RickandMorty.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Rick and Morty API</h3>
+              <p class="portfolio__description--text">
+                Web Application: JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/rick-and-morty-spa-vanilla/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/rick-and-morty-spa-vanilla"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Escuela-de-la-verdad-page-min.webp" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Escuela de la verdad page</h3>
+              <p class="portfolio__description--text">
+                Landing Page: JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Escuela-de-la-verdad/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Escuela-de-la-verdad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Simon.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Simon says</h3>
+              <p class="portfolio__description--text">
+                Web Application: JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Simon-says-game/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Simon-says-game"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Blog.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Blog</h3>
+              <p class="portfolio__description--text">
+                Landing Page: REACT
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://simple-htmlblog-react-app.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/Batatabit-first-mobile.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Batatabit</h3>
+              <p class="portfolio__description--text">Website: CSS, HTML</p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/Batatabit-first-mobile/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Batatabit-first-mobile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./projects/CSS-Layout.jfif" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">CSS-Layout</h3>
+              <p class="portfolio__description--text">
+                Landing Page: CSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://jgestradam.github.io/CSS-Layout/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/CSS-Layout"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contacto</h2>
+        <h3 class="section__subtitle">
+          Contactame para trabajar juntos.
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="mailto:gregoesme@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>E-Mail</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Humpire2101"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Git Hub</p>
+            </div>
+          </a>
+          <a
+            href="https://linkedin.com/in/antonio-humpire"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>LinkedIn</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/jgestradam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-whatsapp"></i>
+              <p>WhatsApp</p>
+            </div>
+          </a>
+          
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">@AntonioHumpire</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
